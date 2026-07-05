@@ -1,58 +1,14 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-05 17:45:00",
+  "updated_at": "2026-07-05 18:56:23",
   "notices": [
     {
-      "id": "notice-20260705-note-001",
-      "type": "note",
-      "level": "normal",
-      "title": "通知中心上线说明",
-      "content": "通知中心已经接入远程公告。你可以在个人页的 AI 配置下方进入通知中心查看历史通知。进入通知中心不会自动标记已读，需要点击右上角的全部已读按钮。",
-      "published_at": "2026-07-05 17:45:00"
-    },
-    {
-      "id": "notice-20260705-tip-001",
+      "id": "notice-20260705-tip-001.1",
       "type": "tip",
       "level": "normal",
-      "title": "提示：通知支持手动已读",
-      "content": "如果不想继续看到红点，可以进入通知中心后点击右上角的全部已读按钮。已读通知会继续保留在时间线中，方便之后回看。",
-      "published_at": "2026-07-05 17:40:00"
-    },
-    {
-      "id": "notice-20260705-warning-001",
-      "type": "warning",
-      "level": "normal",
-      "title": "网络提示：CDN 切换中",
-      "content": "远程通知地址已经切换到 cdn.caolib.qzz.io。如果短时间内刷新失败，可能是节点缓存或 DNS 尚未完全生效，请稍后再试。",
-      "published_at": "2026-07-05 17:35:00",
-      "expires_at": "2026-07-12 23:59:59"
-    },
-    {
-      "id": "notice-20260705-important-001",
-      "type": "important",
-      "level": "pinned",
-      "title": "重要：远程公告格式调整",
-      "content": "通知正文现在按普通文本展示，不再需要 Markdown 提示块。新增 type 字段用于控制通知颜色，可选 note、tip、warning、important、caution。",
-      "published_at": "2026-07-05 17:30:00",
-      "pinned": true
-    },
-    {
-      "id": "notice-20260705-caution-001",
-      "type": "caution",
-      "level": "urgent",
-      "title": "注意：测试通知样式覆盖",
-      "content": "这是一条 caution 类型通知，用于检查高风险提示的颜色和未读红点表现。确认样式正常后，可以通过设置 expires_at 让它进入过期通知分组。",
-      "published_at": "2026-07-05 17:25:00",
-      "expires_at": "2026-07-08 23:59:59"
-    },
-    {
-      "id": "notice-20260701-expired-001",
-      "type": "tip",
-      "level": "normal",
-      "title": "已过期：旧维护公告",
-      "content": "这条通知已经过期，不会计入红点，但仍会保留在通知中心的过期通知分组中。",
-      "published_at": "2026-07-01 09:30:00",
-      "expires_at": "2026-07-02 09:30:00"
+      "title": "更新请求地址和版本号",
+      "content": "前往「网络-高级设置」，然后点击「填充」，完了保存一下",
+      "published_at": "2026-07-05 18:56:23"
     }
   ]
 }
