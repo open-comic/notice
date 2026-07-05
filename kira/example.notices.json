@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-07-05 16:50:00",
+  "notices": [
+    {
+      "id": "notice-20260705-001",
+      "level": "normal",
+      "title": "普通通知示例",
+      "content": "这是一条普通通知。\n\n- 支持 Markdown 列表\n- 支持多段正文",
+      "published_at": "2026-07-05 16:50:00"
+    },
+    {
+      "id": "notice-20260705-002",
+      "level": "urgent",
+      "title": "紧急通知示例",
+      "content": "> [!warning]\n> 这是一条紧急通知示例。\n\n请尽快查看相关说明。",
+      "published_at": "2026-07-05T17:00:00+08:00",
+      "expires_at": "2026-07-06T17:00:00+08:00",
+      "url": "https://cdn.caolib.qzz.io/kira/notices.json"
+    },
+    {
+      "id": "notice-20260705-003",
+      "level": "pinned",
+      "title": "置顶通知示例",
+      "content": "这条通知会在当前有效时显示在通知中心前面。",
+      "published_at": "2026-07-05 15:30:00"
+    },
+    {
+      "id": "notice-20260701-001",
+      "level": "normal",
+      "title": "已过期通知示例",
+      "content": "这条通知已过期，不会计入红点，但仍会显示在过期通知分组。",
+      "published_at": "2026-07-01 09:30:00",
+      "expires_at": "2026-07-02 09:30:00"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.caolib.qzz.io/kira/notices.schema.json",
+  "title": "Kira Remote Notices",
+  "description": "Schema for Kira remote notice JSON files.",
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Human-readable update time. The app currently ignores this field."
+    },
+    "notices": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/notice"
+      }
+    },
+    "notifications": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/notice"
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/notice"
+      }
+    }
+  },
+  "anyOf": [
+    { "required": ["notices"] },
+    { "required": ["notifications"] },
+    { "required": ["items"] }
+  ],
+  "$defs": {
+    "notice": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["id", "title", "content"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "content": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Markdown content. Use \\n for line breaks inside JSON strings."
+        },
+        "level": {
+          "type": "string",
+          "enum": [
+            "normal",
+            "urgent",
+            "emergency",
+            "critical",
+            "紧急",
+            "pinned",
+            "pin",
+            "top",
+            "sticky",
+            "置顶",
+            "普通"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "description": "Alias of level. Prefer level for new files."
+        },
+        "pinned": {
+          "type": "boolean"
+        },
+        "is_pinned": {
+          "type": "boolean"
+        },
+        "sticky": {
+          "type": "boolean"
+        },
+        "published_at": {
+          "type": "string"
+        },
+        "publishedAt": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "expires_at": {
+          "type": "string"
+        },
+        "expiresAt": {
+          "type": "string"
+        },
+        "expire_at": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    }
+  }
+}
