@@ -3,7 +3,7 @@
   "updated_at": "2026-07-07 12:44:45",
   "notices": [
     {
-      "id": "notice-20260707-urgent-001",
+      "id": "notice-20260707-urgent-001.1",
       "level": "urgent",
       "title": "动漫功能去留投票",
       "content": "最近在考虑移除动漫功能（我自己几乎不用），因为感觉做得不好，后续也不太想做，因为这一类的软件其实挺多的（Kazumi、Animeko等），直接删除有点突然，因为我不了解有多少人在使用动漫功能，所以想让大家投个票，我会看情况来决定是否保留，投票地址 https://github.com/caolib/kira/discussions/7",
