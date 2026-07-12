@@ -1,0 +1,12 @@
+{
+    "fonts": [
+        {
+            "name": "汉仪有圆",
+            "url": "https://cdn.caolib.qzz.io/fonts/HYYouYuan.ttf"
+        },
+        {
+            "name": "MiSans",
+            "url": "https://cdn.caolib.qzz.io/fonts/MiSans.ttf"
+        }
+    ]
+}
