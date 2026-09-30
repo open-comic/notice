@@ -1,24 +1,13 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-07-07 12:44:45",
+  "updated_at": "2026-09-30 17:29:43",
   "notices": [
     {
-      "id": "notice-20260707-urgent-001.1",
-      "level": "urgent",
-      "title": "动漫功能去留投票",
-      "content": "最近在考虑移除动漫功能（我自己几乎不用），因为感觉做得不好，后续也不太想做，因为这一类的软件其实挺多的（Kazumi、Animeko等），直接删除有点突然，因为我不了解有多少人在使用动漫功能，所以想让大家投个票，我会看情况来决定是否保留，投票地址 https://github.com/caolib/kira/discussions/7",
-      "published_at": "2026-07-07 12:44:45",
-      "expires_at": "2026-07-14 12:44:45",
-      "url": "https://github.com/caolib/kira/discussions/7"
-    },
-    {
-      "id": "notice-20260705-tip-001.1",
-      "type": "tip",
+      "id": "notice-20260930-normal-001",
       "level": "normal",
-      "title": "更新请求地址和版本号",
-      "content": "前往「网络-高级设置」，然后点击「填充」，完了保存一下",
-      "published_at": "2026-07-05 18:56:23",
-      "expires_at": "2026-07-25 22:04:59"
+      "title": "轻小说",
+      "content": "轻小说功能已上线。轻小说的书架、浏览记录等功能需要拷贝账号才能使用，详情见更新说明。",
+      "published_at": "2026-09-30 17:29:43"
     }
   ]
 }
