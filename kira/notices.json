@@ -1,13 +1,20 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-30 17:29:43",
+  "updated_at": "2026-11-10 11:11:49",
   "notices": [
     {
-      "id": "notice-20260930-normal-001",
-      "level": "normal",
-      "title": "轻小说",
-      "content": "轻小说功能已上线。轻小说的书架、浏览记录等功能需要拷贝账号才能使用，详情见更新说明。",
-      "published_at": "2026-09-30 17:29:43"
+      "id": "notice-20261110-pinned-001",
+      "level": "pinned",
+      "title": "使用与分享须知",
+      "content": "欢迎将 Kira 分享给身边的好朋友，但请勿在抖音、B站等公共平台宣传或推广本软件。\n\nKira 是一款免费开源软件，请勿售卖本软件，或以其他任何形式利用本软件牟利。\n\n- [源代码](https://github.com/caolib/kira)\n- [软件官网](https://kirakira.dpdns.org)",
+      "published_at": "2026-11-10 11:11:49"
+    },
+    {
+      "id": "notice-20261110-urgent-001",
+      "level": "urgent",
+      "title": "更新失败解决方法",
+      "content": "如果软件无法更新，请将镜像源修改为 https://gh-proxy.org/ ，然后点击一次“检查更新”，再进行更新。或者更新的时候取消勾选“使用镜像”",
+      "published_at": "2026-11-10 11:04:59"
     }
   ]
 }
