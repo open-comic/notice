@@ -6,7 +6,11 @@ Kira App 当前默认读取：
 https://cdn.caolib.qzz.io/kira/notices.json
 ```
 
-因此 EdgeOne 上需要确保这个路径能直接返回 JSON 文件。
+因此 EdgeOne 上需要确保这个路径能直接返回 JSON 文件；高级设置配置同理：
+
+```text
+https://cdn.caolib.qzz.io/kira/copy-settings.json
+```
 
 ## 推荐目录结构
 
@@ -16,9 +20,11 @@ https://cdn.caolib.qzz.io/kira/notices.json
 repo-root/
   kira/
     notices.json
+    copy-settings.json
     README.md
     FORMAT.md
     notices.schema.json
+    copy-settings.schema.json
     example.notices.json
     EDGEONE_DEPLOY.md
 ```

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.caolib.qzz.io/kira/copy-settings.schema.json",
+  "title": "Kira Remote Copy Settings",
+  "description": "Kira App 高级设置（COPY）的远程配置，目前只提供 versionCode。",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["version_code"],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "updated_at": {
+      "type": "string",
+      "description": "Human-readable update time. The app currently ignores this field."
+    },
+    "version_code": {
+      "type": "string",
+      "pattern": "^[0-9]{1,10}$",
+      "description": "COPY 请求使用的 versionCode，纯数字。"
+    },
+    "versionCode": {
+      "type": "string",
+      "pattern": "^[0-9]{1,10}$",
+      "description": "Alias of version_code. Prefer version_code."
+    }
+  }
+}
